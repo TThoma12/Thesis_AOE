@@ -692,16 +692,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -22, y: 18, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -30, y: 19, z: 0}
     second:
       serializedVersion: 2
@@ -784,34 +774,34 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 065ba83e42c9f5343bf491abf2a3b76b, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 56
     m_Data: {fileID: 11400000, guid: 10cd4e4121cf2684f93af871bef5ded2, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 434dc05ac5f8d144f81f20f1f75bd124, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 56
     m_Data: {fileID: 21300000, guid: 6e66a26aa04135440b40494e41f55ed6, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1
+  - m_RefCount: 0
     m_Data:
-      e00: 6
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 6
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 6
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
+      e00: 1.084227e-19
+      e01: -2.8151655e-29
+      e02: -2.8149007e-29
+      e03: -2.8149007e-29
+      e10: 9.37e-43
+      e11: 2.24e-43
+      e12: 2.24e-43
+      e13: 2.24e-43
+      e20: -9.256914e+29
+      e21: -2.5327375e-29
+      e22: -3.9559574
+      e23: -2.5327375e-29
+      e30: 4.5904e-41
+      e31: 9.39e-43
+      e32: 9.36e-43
+      e33: 9.39e-43
   - m_RefCount: 56
     m_Data:
       e00: 1
@@ -831,7 +821,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 57
+  - m_RefCount: 56
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
