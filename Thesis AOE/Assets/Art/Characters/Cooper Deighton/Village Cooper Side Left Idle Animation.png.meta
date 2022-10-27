@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: f510dfbb52da0e14f84f76fb5daa8c9f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4743876491675108379
+    second: V_Cooper_Left_Idle_1
+  - first:
+      213: -1237744637363813964
+    second: V_Cooper_Left_Idle_2
+  - first:
+      213: 3925728639882226869
+    second: V_Cooper_Left_Idle_3
+  - first:
+      213: -2647145553079352575
+    second: V_Cooper_Left_Idle_4
+  - first:
+      213: -7608954095999357490
+    second: V_Cooper_Left_Idle_5
+  - first:
+      213: -7039072877004203997
+    second: V_Cooper_Left_Idle_6
+  - first:
+      213: 2909544122316061500
+    second: V_Cooper_Left_Idle_7
+  - first:
+      213: 3095890299088900807
+    second: V_Cooper_Left_Idle_8
+  - first:
+      213: 9122002608471017578
+    second: V_Cooper_Left_Idle_9
+  - first:
+      213: -70641406516001251
+    second: V_Cooper_Left_Idle_10
+  - first:
+      213: -7511046299736225757
+    second: V_Cooper_Left_Idle_11
+  - first:
+      213: -1716307291471483552
+    second: V_Cooper_Left_Idle_12
+  - first:
+      213: 6119186531577129025
+    second: V_Cooper_Left_Idle_13
+  - first:
+      213: -2059913089639723570
+    second: V_Cooper_Left_Idle_14
+  - first:
+      213: -566120425668547277
+    second: V_Cooper_Left_Idle_15
+  - first:
+      213: 1247996482060529815
+    second: V_Cooper_Left_Idle_16
+  - first:
+      213: 3307510725436401481
+    second: V_Cooper_Left_Idle_17
+  - first:
+      213: -5014429460473454883
+    second: V_Cooper_Left_Idle_18
+  - first:
+      213: 6453391251221296942
+    second: V_Cooper_Left_Idle_19
+  - first:
+      213: -3422934899478260369
+    second: V_Cooper_Left_Idle_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +161,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140f98f882a5d140800000000000000
+      internalID: 4743876491675108379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b109476fc5a2dee0800000000000000
+      internalID: -1237744637363813964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce1c8066dfa7630800000000000000
+      internalID: 3925728639882226869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10343f70523734bd0800000000000000
+      internalID: -2647145553079352575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd64bb4090976690800000000000000
+      internalID: -7608954095999357490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328d3125380305e90800000000000000
+      internalID: -7039072877004203997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b79fcb6f6c06820800000000000000
+      internalID: 2909544122316061500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c295c403dfc6fa20800000000000000
+      internalID: 3095890299088900807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a680a1eba0dd79e70800000000000000
+      internalID: 9122002608471017578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d160e2ad308050ff0800000000000000
+      internalID: -70641406516001251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328c5b48f2763c790800000000000000
+      internalID: -7511046299736225757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ded6e9c937e28e0800000000000000
+      internalID: -1716307291471483552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1486209cab7bbe450800000000000000
+      internalID: 6119186531577129025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdc8d775f7b963e0800000000000000
+      internalID: -2059913089639723570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33deee7e87cb428f0800000000000000
+      internalID: -566120425668547277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790b7223036c15110800000000000000
+      internalID: 1247996482060529815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9476e681b73a6ed20800000000000000
+      internalID: 3307510725436401481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded93929fa296ab0800000000000000
+      internalID: -5014429460473454883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27b8a5c62d0f8950800000000000000
+      internalID: 6453391251221296942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f659f4b28da4f70d0800000000000000
+      internalID: -3422934899478260369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 2cdfcf86f715b5949903bcd39500dd7d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8864966371101289441
+    second: V_Cooper_Right_Walk_1
+  - first:
+      213: 4890129141988801822
+    second: V_Cooper_Right_Walk_2
+  - first:
+      213: 3521081262755680640
+    second: V_Cooper_Right_Walk_3
+  - first:
+      213: -7921043187733079484
+    second: V_Cooper_Right_Walk_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Cooper_Right_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 17
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1459b8dd0059f480800000000000000
+      internalID: -8864966371101289441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Right_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d370eab8a3dd340800000000000000
+      internalID: 4890129141988801822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Right_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08116d3c0c46dd030800000000000000
+      internalID: 3521081262755680640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Right_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a54a0303dc21290800000000000000
+      internalID: -7921043187733079484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

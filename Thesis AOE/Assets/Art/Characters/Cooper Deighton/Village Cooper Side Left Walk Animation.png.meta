@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: bbafbcf3d93bbd347bbccb1ca60bc51d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2446971706965458789
+    second: V_Cooper_Left_Walk_1
+  - first:
+      213: 5469540407618434041
+    second: V_Cooper_Left_Walk_2
+  - first:
+      213: 5287438555471314512
+    second: V_Cooper_Left_Walk_3
+  - first:
+      213: 2618161596988372890
+    second: V_Cooper_Left_Walk_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Cooper_Left_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 17
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f7b198dc365f120800000000000000
+      internalID: 2446971706965458789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3fdb89506b7eb40800000000000000
+      internalID: 5469540407618434041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e72962a51c06940800000000000000
+      internalID: 5287438555471314512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Left_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 3
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97bf01d914955420800000000000000
+      internalID: 2618161596988372890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

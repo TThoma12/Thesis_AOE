@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: a6d531b7d1b7a494081fb78548461920
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4151370981899563829
+    second: V_Cooper_Up_Walk_1
+  - first:
+      213: -8676048737687902841
+    second: V_Cooper_Up_Walk_2
+  - first:
+      213: 7841369307789844996
+    second: V_Cooper_Up_Walk_3
+  - first:
+      213: 2403673598521213470
+    second: V_Cooper_Up_Walk_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Cooper_Up_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc030d361e5366c0800000000000000
+      internalID: -4151370981899563829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Up_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785e22804ab789780800000000000000
+      internalID: -8676048737687902841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Up_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e67f07d322dc60800000000000000
+      internalID: 7841369307789844996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Cooper_Up_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1287d317609b5120800000000000000
+      internalID: 2403673598521213470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
