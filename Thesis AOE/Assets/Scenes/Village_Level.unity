@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,6 +195,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c80f5e834f1364e95d014ca8530813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1951279390}
+  smoothing: 0.6
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -445,7 +460,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 3
       m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 3
+      m_TileMatrixIndex: 4
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -700,25 +715,25 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
-  - m_RefCount: 1
+  - m_RefCount: 0
     m_Data:
-      e00: 5
-      e01: 0
-      e02: 0
+      e00: 5.440644e+19
+      e01: 1.1e-44
+      e02: 1.4684364e+15
       e03: 0
-      e10: 0
-      e11: 5
-      e12: 0
-      e13: -0.72
+      e10: 2.76e-43
+      e11: NaN
+      e12: 4.5904e-41
+      e13: 0
       e20: 0
       e21: 0
-      e22: 5
+      e22: 5.440637e+19
       e23: 0
       e30: 0
-      e31: 0
-      e32: 0
+      e31: 7.34684e-40
+      e32: 2.76e-43
       e33: 1
-  - m_RefCount: 4
+  - m_RefCount: 5
     m_Data:
       e00: 5
       e01: 0
@@ -745,7 +760,7 @@ Tilemap:
       e10: 0
       e11: 6
       e12: 0
-      e13: -0.98
+      e13: -1
       e20: 0
       e21: 0
       e22: 6
@@ -36088,7 +36103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 451882099
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4114573316453111425, guid: 8b026f44e6376cb40a5ce0303ea487d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -36108,7 +36123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951279387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.506, y: 4.07, z: -0.214}
+  m_LocalPosition: {x: 9.506, y: 4.07, z: -0.05}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
