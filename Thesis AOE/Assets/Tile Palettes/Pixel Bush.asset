@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Grass Tile (Bush)
+  m_Name: Pixel Bush
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 96a109e7ce7393844ab9f5878b6d583b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a211e79e74390e4fb87434e8cccdeb2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
