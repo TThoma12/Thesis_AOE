@@ -485,6 +485,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 18, y: -25, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 131
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -52, y: -24, z: 0}
     second:
       serializedVersion: 2
@@ -5241,7 +5251,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: fbc94c9d791641f438a2e4c79ff97759, type: 2}
   - m_RefCount: 113
     m_Data: {fileID: 11400000, guid: 365af805e3fc57747a1434bc65327be0, type: 2}
-  - m_RefCount: 162
+  - m_RefCount: 163
     m_Data: {fileID: 11400000, guid: 1b4ef72a599444443b64b47f550c08db, type: 2}
   - m_RefCount: 24
     m_Data: {fileID: 11400000, guid: 5b49fde34329a0649be416dd7140a61e, type: 2}
@@ -5278,7 +5288,7 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 588ace118d6e93641b0293410c58785a, type: 3}
   - m_RefCount: 113
     m_Data: {fileID: 21300000, guid: c8dc920d2d65b014abdd27aa8885d6f4, type: 3}
-  - m_RefCount: 162
+  - m_RefCount: 163
     m_Data: {fileID: 21300000, guid: 88716d63832048a448c42e9d91127322, type: 3}
   - m_RefCount: 24
     m_Data: {fileID: 21300000, guid: 2a211e79e74390e4fb87434e8cccdeb2, type: 3}
@@ -7659,7 +7669,7 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data:
       e00: 4
       e01: 0
@@ -9443,22 +9453,22 @@ Tilemap:
       e33: 1
   - m_RefCount: 0
     m_Data:
-      e00: -2.5244127e-29
-      e01: 3.3314182e-21
-      e02: 3.3312405e-21
-      e03: 3.3312405e-21
-      e10: 8.53e-43
-      e11: 2.26e-43
-      e12: 2.26e-43
-      e13: 2.26e-43
-      e20: -1.9797774e+38
-      e21: 1.3722e-41
-      e22: 9.1597707e-10
-      e23: 1.3722e-41
-      e30: 4.5905e-41
-      e31: 8.56e-43
-      e32: 8.53e-43
-      e33: 8.56e-43
+      e00: 3.3319514e-21
+      e01: 2.5e-44
+      e02: -1.9797774e+38
+      e03: 0
+      e10: 2.26e-43
+      e11: NaN
+      e12: 4.5905e-41
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 3.3319481e-21
+      e23: 0
+      e30: 0
+      e31: 7.34684e-40
+      e32: 2.26e-43
+      e33: 1
   - m_RefCount: 1
     m_Data:
       e00: 4
@@ -9496,7 +9506,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 487
+  - m_RefCount: 488
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
