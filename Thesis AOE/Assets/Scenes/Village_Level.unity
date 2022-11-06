@@ -209,6 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1951279390}
   smoothing: 0.6
+  maxPos: {x: 18.5, y: 16.02}
+  minPos: {x: -49.4, y: -32}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -11165,7 +11167,7 @@ Tilemap:
       e13: 2.97e-43
       e20: 3.5805647e+25
       e21: 1.0858896e-19
-      e22: 3.9153614
+      e22: 3.9152927
       e23: 1.0858896e-19
       e30: 4.5904e-41
       e31: 9.43e-43
