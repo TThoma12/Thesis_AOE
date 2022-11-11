@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Village_Level.unity
     guid: 0881d7c0eb77db24ba84b1d20e12247c
+  - enabled: 1
+    path: Assets/Scenes/House_1.unity
+    guid: c73c8840a9cddb74683d9e541b1da9ab
   m_configObjects: {}
