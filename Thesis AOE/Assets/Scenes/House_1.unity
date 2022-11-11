@@ -2089,6 +2089,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb2d: {fileID: 1951279391}
   animator: {fileID: 1951279388}
+  startPosition: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
 --- !u!61 &1951279393
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2169,6 +2170,18 @@ PrefabInstance:
     - target: {fileID: 3411296502383420351, guid: fb178192ef95ac74285245e437f63c00, type: 3}
       propertyPath: m_Name
       value: Scene Changer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745696206008740053, guid: fb178192ef95ac74285245e437f63c00, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
+    - target: {fileID: 7745696206008740053, guid: fb178192ef95ac74285245e437f63c00, type: 3}
+      propertyPath: playerPosition.x
+      value: 8.485992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745696206008740053, guid: fb178192ef95ac74285245e437f63c00, type: 3}
+      propertyPath: playerPosition.y
+      value: -6.84991
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb178192ef95ac74285245e437f63c00, type: 3}

@@ -8,11 +8,12 @@ public class PlayerController2D : MonoBehaviour
     public Rigidbody2D rb2d;
     Vector2 movement;
     public Animator animator;
+    public VectorValue startPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = startPosition.initialValue;
     }
 
     // Update is called once per frame
