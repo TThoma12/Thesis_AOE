@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c36735689a1f784498c6511b9e9f55af, type: 3}
-  m_Name: PlayerPosition
+  m_Name: PlayerPos2
   m_EditorClassIdentifier: 
-  initialValue: {x: 9.506, y: 4.07}
+  initialValue: {x: 0, y: 0}
