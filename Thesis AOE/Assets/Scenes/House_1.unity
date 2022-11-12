@@ -2223,3 +2223,6 @@ MonoBehaviour:
   sceneToLoad: Village_Level
   playerPosition: {x: 8.485992, y: -6.84991}
   playerStorage: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
+  transitionPanel: {fileID: 434078749159944179, guid: 98fece22a210fab418690f0ecda64708, type: 3}
+  transitionPanel2: {fileID: 1717534907153128627, guid: f5614c66b9474e146a78f24bd3e5a7e4, type: 3}
+  fadeWait: 1

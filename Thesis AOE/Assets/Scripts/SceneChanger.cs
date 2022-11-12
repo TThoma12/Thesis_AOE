@@ -9,6 +9,8 @@ public class SceneChanger : MonoBehaviour
     public Vector2 playerPosition;
     public VectorValue playerStorage;
     public GameObject transitionPanel;
+    public GameObject transitionPanel2;
+    public float fadeWait;
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +39,24 @@ public class SceneChanger : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerStorage.initialValue = playerPosition;
-            SceneManager.LoadScene(sceneToLoad);
+            StartCoroutine(FadeCoroutine());
+            //SceneManager.LoadScene(sceneToLoad);
+        }
+    }
+
+    public IEnumerator FadeCoroutine()
+    {
+        if (transitionPanel != null)
+        {
+            Instantiate(transitionPanel2, Vector3.zero, Quaternion.identity);
+        }
+
+        // This will control how long the fading between scenes takes
+        yield return new WaitForSeconds(fadeWait);
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneToLoad);
+        while (!asyncOperation.isDone)
+        {
+            yield return null;
         }
     }
 }
