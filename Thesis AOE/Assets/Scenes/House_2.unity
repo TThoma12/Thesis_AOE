@@ -224,7 +224,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175120204
 MonoBehaviour:
@@ -239,11 +239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Village_Level
-  playerPosition: {x: 0, y: 0}
+  playerPosition: {x: -17.55404, y: -4.68993}
   playerStorage: {fileID: 0}
-  transitionPanel: {fileID: 0}
-  transitionPanel2: {fileID: 0}
-  fadeWait: 0
+  transitionPanel: {fileID: 434078749159944179, guid: 98fece22a210fab418690f0ecda64708, type: 3}
+  transitionPanel2: {fileID: 1717534907153128627, guid: f5614c66b9474e146a78f24bd3e5a7e4, type: 3}
+  fadeWait: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,7 +1947,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1951279391
 Rigidbody2D:
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb2d: {fileID: 1951279391}
   animator: {fileID: 1951279388}
-  startPosition: {fileID: 0}
+  startPosition: {fileID: 11400000, guid: 8030fd8e228a4e84f8b8727916d1c3c5, type: 2}
 --- !u!61 &1951279393
 BoxCollider2D:
   m_ObjectHideFlags: 0
