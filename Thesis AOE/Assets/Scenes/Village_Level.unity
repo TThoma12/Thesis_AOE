@@ -415,11 +415,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: House_2
-  playerPosition: {x: 0, y: 0}
-  playerStorage: {fileID: 0}
-  transitionPanel: {fileID: 0}
-  transitionPanel2: {fileID: 0}
-  fadeWait: 0
+  playerPosition: {x: 8.998, y: 4.07}
+  playerStorage: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
+  transitionPanel: {fileID: 434078749159944179, guid: 98fece22a210fab418690f0ecda64708, type: 3}
+  transitionPanel2: {fileID: 1717534907153128627, guid: f5614c66b9474e146a78f24bd3e5a7e4, type: 3}
+  fadeWait: 1
 --- !u!1 &1129754700
 GameObject:
   m_ObjectHideFlags: 0
