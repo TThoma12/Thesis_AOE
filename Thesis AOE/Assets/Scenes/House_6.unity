@@ -1909,7 +1909,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb2d: {fileID: 1951279391}
   animator: {fileID: 1951279388}
-  startPosition: {fileID: 0}
+  startPosition: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
 --- !u!61 &1951279393
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1946,6 +1946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104160787}
   - component: {fileID: 2104160788}
+  - component: {fileID: 2104160789}
   m_Layer: 0
   m_Name: Scene Changer
   m_TagString: Untagged
@@ -1977,7 +1978,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.00000047683716, y: 0.12815785}
@@ -1993,3 +1994,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9982824, y: 1.0404711}
   m_EdgeRadius: 0
+--- !u!114 &2104160789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104160786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6311a4cd39d12ac4885e8fb87baab63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Village_Level
+  playerPosition: {x: 2.545994, y: -22.62999}
+  playerStorage: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
+  transitionPanel: {fileID: 434078749159944179, guid: 98fece22a210fab418690f0ecda64708, type: 3}
+  transitionPanel2: {fileID: 1717534907153128627, guid: f5614c66b9474e146a78f24bd3e5a7e4, type: 3}
+  fadeWait: 1
