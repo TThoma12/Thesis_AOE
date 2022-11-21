@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Village_Level
-  playerPosition: {x: 0, y: 0}
+  playerPosition: {x: -45.45422, y: -14.41004}
   playerStorage: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
   transitionPanel: {fileID: 434078749159944179, guid: 98fece22a210fab418690f0ecda64708, type: 3}
   transitionPanel2: {fileID: 1717534907153128627, guid: f5614c66b9474e146a78f24bd3e5a7e4, type: 3}
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb2d: {fileID: 1951279391}
   animator: {fileID: 1951279388}
-  startPosition: {fileID: 0}
+  startPosition: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
 --- !u!61 &1951279393
 BoxCollider2D:
   m_ObjectHideFlags: 0
