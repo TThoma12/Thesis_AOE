@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 7e6bd559693376948abe5fa7908db4d1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5420822557183113534
+    second: V_Man_One_Up_Walk_1
+  - first:
+      213: 4719126538799700913
+    second: V_Man_One_Up_Walk_2
+  - first:
+      213: 2401430133820043302
+    second: V_Man_One_Up_Walk_3
+  - first:
+      213: -3119207380071090303
+    second: V_Man_One_Up_Walk_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Man_One_Up_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39f25f1561aa3b40800000000000000
+      internalID: 5420822557183113534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_One_Up_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 17
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb56438594bd7140800000000000000
+      internalID: 4719126538799700913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_One_Up_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620334fbbf7935120800000000000000
+      internalID: 2401430133820043302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_One_Up_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 3
+        width: 17
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187f5120a6956b4d0800000000000000
+      internalID: -3119207380071090303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
