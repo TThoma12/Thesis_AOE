@@ -10,6 +10,7 @@ public class BoundBehavior : MonoBehaviour
     private Rigidbody2D rb2d;
     private Animator animator;
     public Collider2D bounds;
+    public bool playerInRange;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,12 @@ public class BoundBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
+        // This code will prevent the NPC from moving if the player is within a certain range
+
+        if (!playerInRange)
+        {
+            Move();
+        }
     }
 
     private void Move()
