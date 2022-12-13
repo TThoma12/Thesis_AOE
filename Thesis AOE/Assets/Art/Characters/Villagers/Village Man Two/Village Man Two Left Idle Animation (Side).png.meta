@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: f96b9509be20e5a418753321f0caeb6f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2288368039596958058
+    second: V_Man_Two_Left_Idle_1
+  - first:
+      213: -1938439412912041801
+    second: V_Man_Two_Left_Idle_2
+  - first:
+      213: -6396360967362011176
+    second: V_Man_Two_Left_Idle_3
+  - first:
+      213: -1413679624983996987
+    second: V_Man_Two_Left_Idle_4
+  - first:
+      213: -718870004510377078
+    second: V_Man_Two_Left_Idle_5
+  - first:
+      213: 8499319388219961725
+    second: V_Man_Two_Left_Idle_6
+  - first:
+      213: 7310445664887001352
+    second: V_Man_Two_Left_Idle_7
+  - first:
+      213: -1276778679148546995
+    second: V_Man_Two_Left_Idle_8
+  - first:
+      213: -2826526508080232373
+    second: V_Man_Two_Left_Idle_9
+  - first:
+      213: 4203121731252914577
+    second: V_Man_Two_Left_Idle_10
+  - first:
+      213: -118072459120465187
+    second: V_Man_Two_Left_Idle_11
+  - first:
+      213: 2994433006186579660
+    second: V_Man_Two_Left_Idle_12
+  - first:
+      213: -6896849687094624604
+    second: V_Man_Two_Left_Idle_13
+  - first:
+      213: 5196896685141332946
+    second: V_Man_Two_Left_Idle_14
+  - first:
+      213: 8354359340740613099
+    second: V_Man_Two_Left_Idle_15
+  - first:
+      213: -4401416349590775347
+    second: V_Man_Two_Left_Idle_16
+  - first:
+      213: 6403112573784049229
+    second: V_Man_Two_Left_Idle_17
+  - first:
+      213: -1329227522967878985
+    second: V_Man_Two_Left_Idle_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +155,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e577c64651e30e0800000000000000
+      internalID: -2288368039596958058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d2cecf974915e0800000000000000
+      internalID: -1938439412912041801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df963de69f8b37a0800000000000000
+      internalID: -6396360967362011176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c51f9efed9916ce0800000000000000
+      internalID: -1413679624983996987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bb9752a8f0606f0800000000000000
+      internalID: -718870004510377078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f077c3f5a3f570800000000000000
+      internalID: 8499319388219961725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801526d899be37560800000000000000
+      internalID: 7310445664887001352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44fe845e88f74ee0800000000000000
+      internalID: -1276778679148546995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4807a1dd1926c8d0800000000000000
+      internalID: -2826526508080232373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1990e0b02fc745a30800000000000000
+      internalID: 4203121731252914577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda2e5859b58c5ef0800000000000000
+      internalID: -118072459120465187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c47534fc5e8920800000000000000
+      internalID: 2994433006186579660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef57b20c77940a0800000000000000
+      internalID: -6896849687094624604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3114430061f1840800000000000000
+      internalID: 5196896685141332946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be39fce9e85a0f370800000000000000
+      internalID: 8354359340740613099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc99b0656270be2c0800000000000000
+      internalID: -4401416349590775347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464c31f5fc6cd850800000000000000
+      internalID: 6403112573784049229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Man_Two_Left_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3
+        width: 17
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2c3d34c92ad8de0800000000000000
+      internalID: -1329227522967878985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
