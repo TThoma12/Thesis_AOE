@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: a0906fd22b8109443b12bd80da747eb8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6360083972858525236
+    second: V_Greeley_Down_Idle_1
+  - first:
+      213: -4847498021902970821
+    second: V_Greeley_Down_Idle_2
+  - first:
+      213: -5240762430135750625
+    second: V_Greeley_Down_Idle_3
+  - first:
+      213: 1788135757814073523
+    second: V_Greeley_Down_Idle_4
+  - first:
+      213: -2857499025615920434
+    second: V_Greeley_Down_Idle_5
+  - first:
+      213: 3822558725961527021
+    second: V_Greeley_Down_Idle_6
+  - first:
+      213: 3245107311929314003
+    second: V_Greeley_Down_Idle_7
+  - first:
+      213: -8268544780032290942
+    second: V_Greeley_Down_Idle_8
+  - first:
+      213: -3787863363419724315
+    second: V_Greeley_Down_Idle_9
+  - first:
+      213: 4463677992735711176
+    second: V_Greeley_Down_Idle_10
+  - first:
+      213: 1416304281369817541
+    second: V_Greeley_Down_Idle_11
+  - first:
+      213: -3382389813226172425
+    second: V_Greeley_Down_Idle_12
+  - first:
+      213: 3518890383844215444
+    second: V_Greeley_Down_Idle_13
+  - first:
+      213: -7051773775052321630
+    second: V_Greeley_Down_Idle_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +143,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9cc18e2517cb7a0800000000000000
+      internalID: -6360083972858525236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3090137b3a3abcb0800000000000000
+      internalID: -4847498021902970821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10bb8726521547b0800000000000000
+      internalID: -5240762430135750625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b88eae6ffbb0d810800000000000000
+      internalID: 1788135757814073523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec26320a6cf1858d0800000000000000
+      internalID: -2857499025615920434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deea10298e47c0530800000000000000
+      internalID: 3822558725961527021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac19928efe80d20800000000000000
+      internalID: 3245107311929314003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fc3c8c45a304d80800000000000000
+      internalID: -8268544780032290942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5a6a5075ece6bc0800000000000000
+      internalID: -3787863363419724315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf9dbc1c7b22fd30800000000000000
+      internalID: 4463677992735711176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1b9e07d39b7a310800000000000000
+      internalID: 1416304281369817541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff01c2b2665f01d0800000000000000
+      internalID: -3382389813226172425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a8294092c95d030800000000000000
+      internalID: 3518890383844215444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Greeley_Down_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 3
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac479d0d11132e90800000000000000
+      internalID: -7051773775052321630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
