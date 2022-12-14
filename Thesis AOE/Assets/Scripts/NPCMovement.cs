@@ -6,13 +6,14 @@ public class NPCMovement : MonoBehaviour
 {
 
     public float moveSpeed;
+    private float storedMoveSpeed;
     private Vector2 minWalkPoint;
     private Vector2 maxWalkPoint;
 
     private Rigidbody2D rb;
     public bool isWalking;
-
     public Vector2 facing;
+    public Vector2 movement;
 
     public float walkTime;
     private float walkCounter;
@@ -29,13 +30,13 @@ public class NPCMovement : MonoBehaviour
 
     void Start()
     {
+        storedMoveSpeed = moveSpeed;
+        moveSpeed = 0;
         startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
         //anim = GetComponent<Animator>();
         waitCounter = waitTime;
         walkCounter = walkTime;
-
-        ChooseDirection();
 
         if (walkZone != null)
         {
@@ -52,11 +53,8 @@ public class NPCMovement : MonoBehaviour
         {
             facing.x = 0;
             facing.y = 0;
-        }
-
-        if (transform.position.y > maxWalkPoint.y)
-        {
-            transform.position = startPosition;
+            movement.x = 0;
+            movement.y = 0;
         }
 
         if (isWalking == true)
@@ -66,28 +64,32 @@ public class NPCMovement : MonoBehaviour
 
             switch (walkDirection)
             {
-
-
                 case 0:
-                    if (hasWalkZone && transform.position.y > maxWalkPoint.y)
+                    if (hasWalkZone && transform.position.y < maxWalkPoint.y)
                     {
-                        rb.velocity = new Vector2(0, -moveSpeed);
+                        movement = new Vector2(0, 1);
+                        moveSpeed = storedMoveSpeed;
+                        rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
                     }
-                    else
-                    {
-                        rb.velocity = new Vector2(0, moveSpeed);
-                    }
+
                     if (hasWalkZone && transform.position.y > maxWalkPoint.y)
                     {
                         isWalking = false;
                         waitCounter = waitTime;
                     }
+
                     facing.y = 1;
                     facing.x = 0;
                     break;
 
                 case 1:
-                    rb.velocity = new Vector2(moveSpeed, 0);
+                    if (hasWalkZone && transform.position.x < maxWalkPoint.x)
+                    {
+                        movement = new Vector2(1, 0);
+                        moveSpeed = storedMoveSpeed;
+                        rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
+                    }
+
                     if (hasWalkZone && transform.position.x > maxWalkPoint.x)
                     {
                         isWalking = false;
@@ -95,12 +97,18 @@ public class NPCMovement : MonoBehaviour
                     }
                     facing.x = 1;
                     facing.y = 0;
-                    //transform.localScale = new Vector3(6f, 6f, 1f);
+                    //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
                     break;
 
                 case 2:
-                    rb.velocity = new Vector2(0, -moveSpeed);
                     if (hasWalkZone && transform.position.y > minWalkPoint.y)
+                    {
+                        movement = new Vector2(0, -1);
+                        moveSpeed = -storedMoveSpeed;
+                        rb.MovePosition(rb.position - movement * moveSpeed * Time.deltaTime);
+                    }
+
+                    if (hasWalkZone && transform.position.y < minWalkPoint.y)
                     {
                         isWalking = false;
                         waitCounter = waitTime;
@@ -110,15 +118,21 @@ public class NPCMovement : MonoBehaviour
                     break;
 
                 case 3:
-                    rb.velocity = new Vector2(-moveSpeed, 0);
                     if (hasWalkZone && transform.position.x > minWalkPoint.x)
+                    {
+                        movement = new Vector2(-1, 0);
+                        moveSpeed = -storedMoveSpeed;
+                        rb.MovePosition(rb.position - movement * moveSpeed * Time.deltaTime);
+                    }
+
+                    if (hasWalkZone && transform.position.x < minWalkPoint.x)
                     {
                         isWalking = false;
                         waitCounter = waitTime;
                     }
                     facing.y = 0;
                     facing.x = -1;
-                    //transform.localScale = new Vector3(-6f, 6f, 1f);
+                    //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 
                     break;
 
@@ -136,8 +150,6 @@ public class NPCMovement : MonoBehaviour
         }
         else
         {
-            rb.velocity = Vector2.zero;
-
             waitCounter -= Time.deltaTime;
 
             if (waitCounter < 0)
