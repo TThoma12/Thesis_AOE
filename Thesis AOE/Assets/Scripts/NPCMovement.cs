@@ -26,7 +26,7 @@ public class NPCMovement : MonoBehaviour
     public Collider2D walkZone;
     private bool hasWalkZone;
 
-    //public Animator anim;
+    public Animator anim;
 
     void Start()
     {
@@ -34,7 +34,7 @@ public class NPCMovement : MonoBehaviour
         moveSpeed = 0;
         startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         waitCounter = waitTime;
         walkCounter = walkTime;
 
@@ -78,8 +78,8 @@ public class NPCMovement : MonoBehaviour
                         waitCounter = waitTime;
                     }
 
-                    facing.y = 1;
-                    facing.x = 0;
+                    facing.y = 0;
+                    facing.x = 1;
                     break;
 
                 case 1:
@@ -95,9 +95,8 @@ public class NPCMovement : MonoBehaviour
                         isWalking = false;
                         waitCounter = waitTime;
                     }
-                    facing.x = 1;
-                    facing.y = 0;
-                    //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                    facing.x = 0;
+                    facing.y = 1;
                     break;
 
                 case 2:
@@ -113,8 +112,8 @@ public class NPCMovement : MonoBehaviour
                         isWalking = false;
                         waitCounter = waitTime;
                     }
-                    facing.y = -1;
-                    facing.x = 0;
+                    facing.y = 0;
+                    facing.x = -1;
                     break;
 
                 case 3:
@@ -130,9 +129,8 @@ public class NPCMovement : MonoBehaviour
                         isWalking = false;
                         waitCounter = waitTime;
                     }
-                    facing.y = 0;
-                    facing.x = -1;
-                    //transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                    facing.y = -1;
+                    facing.x = 0;
 
                     break;
 
@@ -158,9 +156,9 @@ public class NPCMovement : MonoBehaviour
             }
         }
 
-        //anim.SetFloat("YourFloat", facing.x);
-        //anim.SetFloat("YourFloat", facing.y);
-        //anim.SetBool("YourBool", isWalking);
+        anim.SetFloat("Horizontal", facing.x);
+        anim.SetFloat("Vertical", facing.y);
+        anim.SetFloat("Speed", facing.sqrMagnitude);
     }
 
     public void ChooseDirection()
