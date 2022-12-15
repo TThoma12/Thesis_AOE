@@ -1973,7 +1973,7 @@ Animator:
   m_GameObject: {fileID: 1216354506}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 420e916e316554249a0dfb562cd19eb7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9d95650c9e475a8488d0cd616eb9a650, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2113,6 +2113,7 @@ MonoBehaviour:
   walkTime: 1
   waitTime: 4
   walkZone: {fileID: 1920140980}
+  anim: {fileID: 0}
 --- !u!1 &1224733313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,7 +2221,7 @@ Animator:
   m_GameObject: {fileID: 1234690727}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c51bb4b4424601548bcb93b2192389d0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9d95650c9e475a8488d0cd616eb9a650, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2341,6 +2342,7 @@ MonoBehaviour:
   walkTime: 1
   waitTime: 4
   walkZone: {fileID: 1192353616}
+  anim: {fileID: 0}
 --- !u!50 &1234690733
 Rigidbody2D:
   serializedVersion: 4
@@ -15502,14 +15504,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1224733313}
-  dialogueText: {fileID: 0}
+  dialogueText: {fileID: 277671076}
   Text:
   - Hello!
   - My name is Jeff
   - Have a good day!
   playerInRange: 0
   player: {fileID: 0}
-  message: 
 --- !u!1 &1621851684
 GameObject:
   m_ObjectHideFlags: 0
