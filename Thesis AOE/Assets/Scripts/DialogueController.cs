@@ -10,8 +10,7 @@ public class DialogueController : MonoBehaviour
     public List<string> Text = new List<string>();
     public bool playerInRange;
     public GameObject player;
-    private int messageTrack;
-    public string message;
+    private int messageTrack = -1;
     private PlayerController2D playerController;
 
     // Start is called before the first frame update
@@ -27,9 +26,9 @@ public class DialogueController : MonoBehaviour
         // This code will bring up the dialogue box if the player presses a certain key
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
         {
-            if (dialogueBox.activeInHierarchy && messageTrack >= Text.Count)
+            if (dialogueBox.activeInHierarchy && messageTrack == Text.Count - 1)
             {
-                messageTrack = 0;
+                messageTrack = -1;
                 Time.timeScale = 1;
                 playerController.enabled = true;
                 dialogueBox.SetActive(false);
@@ -41,9 +40,7 @@ public class DialogueController : MonoBehaviour
                 playerController.enabled = false;
                 dialogueBox.SetActive(true);
                 messageTrack++;
-                message = Text[messageTrack];
-                Debug.Log(message);
-                dialogueText.text = message;
+                dialogueText.text = Text[messageTrack];
             }
         }
     }
