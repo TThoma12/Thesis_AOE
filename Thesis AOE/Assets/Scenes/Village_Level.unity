@@ -164,7 +164,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1930956319}
-  - {fileID: 1454108406}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -382,7 +381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello!
+  m_Text: 
 --- !u!222 &277671077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2293,6 +2292,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1603020576}
+  - {fileID: 1454108406}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2543,10 +2543,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454108405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.2933335, y: 19.636595, z: 1.9185205}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_Children: []
-  m_Father: {fileID: 110172421}
+  m_Father: {fileID: 1234690730}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1454108407
@@ -15503,8 +15503,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1224733313}
   dialogueText: {fileID: 0}
-  message: Hello!
+  Text:
+  - Hello!
+  - My name is Jeff
+  - Have a good day!
   playerInRange: 0
+  player: {fileID: 0}
+  message: 
 --- !u!1 &1621851684
 GameObject:
   m_ObjectHideFlags: 0
@@ -55481,7 +55486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951279387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.506, y: 4.07, z: 0}
+  m_LocalPosition: {x: -10.26, y: -31.6, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -55523,7 +55528,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb2d: {fileID: 1951279391}
   animator: {fileID: 1951279388}
-  startPosition: {fileID: 11400000, guid: 3364ffb2e213e694c87806cd7da320c6, type: 2}
+  startPosition: {fileID: 0}
 --- !u!61 &1951279393
 BoxCollider2D:
   m_ObjectHideFlags: 0
